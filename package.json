@@ -1,0 +1,12 @@
+{
+  "name": "sistema-de-rifas",
+  "version": "1.0.0",
+  "description": "### Funcionalidades.  1. La cantidad de boletos disponibles se podra gestionar desde una vista de admin. 2. El usuario podra ver los números que aun estan disponibles. 3. El número de los ganadores se debera configurar en la vista del admin  4. Se debe permitir tener varias rifas en el mismo sistema.  5. Los usuarios podran ver las direntes rifas que existen y poder registrarse en las mismas , siempre y cuando la cantidad de boletos no este acabada 6. Los usuarios podran ver en una pagina de participantes por rifa, a todos los participantes y una parte del numero del que posee su boleto  7. una vez que se registra un participante, debe llegar un mail o una notificacion de whatsapp al admin indicando que existe un nuevo participante.  8. si un participante gana una de las rifas , se le debe notificar al whatsapp o por email  9. al registrarse en una de las rifas y despues de haber realizado el pago, el usuario podrá descargar su ticket o boleto d forma difital  10. el usuairo podra ver sus boletos en linea solo con colocar su numero de cedula",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
