@@ -1,6 +1,6 @@
-Sistema de Rifas
+####Sistema de Rifas
 
-Funcionalidades. 
+###Funcionalidades. 
 0.- La cantidad de boletos disponibles se podra gestionar desde una vista de admin.
 1.- El usuario podra ver los números que aun estan disponibles.
 2.- El número de los ganadores se debera configurar en la vista del admin 
@@ -14,7 +14,7 @@ Funcionalidades.
 
 
 
-Formulario de registro de rifa :
+###Formulario de registro de rifa :
 1.- Nombre de la Rifa 
 2.- Descripcion de la rifa 
 3.- Terminos y condiciones 
@@ -23,14 +23,14 @@ Formulario de registro de rifa :
 
 
 El registro se hace en cada rifa , por lo que el identificador de la rifa se usara para asociar el usuairo a la rifa que se esta registrando
-Formulario de registro de usuario 
+__
+##Formulario de registro de usuario 
 1.- número de cedula 
 2.- número celular  (whatsapp)
 3.- correo electronico 
 4.- Nombre completo 
 
-
-Vistas
+##Vistas
 1.- Login del Admin 
 2.- Reset de contraseña del admin 
 3.- Panel de todas las rifas | admin
@@ -43,7 +43,7 @@ Vistas
 10.- Panel de Rifa | cliente 
 
 
-Base de datos:
+##Base de datos:
 Table usuarios
     id del usuario : cedula 
     nombre del usuario: nombre 
@@ -69,3 +69,6 @@ table compra boleto
     id de la rifa
     id del cliente
     respuesta de la api
+
+posiblemente toque hacer otra tabla para el proceso del boton de pago con payphone
+
